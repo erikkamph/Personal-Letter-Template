@@ -2,10 +2,10 @@
 The template is split into three parts
 1. main
 1. commands
-1. preamble
+1. preamble <br>
 Each of these have its own purpose.
 1. main - Used to input files where you write your own text
-  1. A folder "letters" is used, where you put your own personal letters
+    1. A folder "letters" is used, where you put your own personal letters
 1. commands - Contains some example text, the header and regarding an application text
 1. Preamble - Contains usepackages and styling commands to get a nice looking personal letter
 
