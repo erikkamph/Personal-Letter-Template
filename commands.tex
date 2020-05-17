@@ -1,0 +1,39 @@
+% All commands that create something are put here
+
+\newcommand{\service}[1]{\subsubsection{Angående tjänst ''#1''}}
+
+\newcommand{\createheader}[8]{
+    \noindent
+    \begin{minipage}{.5\linewidth}
+        \begin{flushleft}
+            #1 \\
+            #2 \\
+            \hyperlink{mailto:#3}{#3} \\
+            \hyperlink{tel:#4}{#4} \\
+        \end{flushleft}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{.5\linewidth}
+        \begin{flushright}
+            #8 \\
+            #5 \\
+            #6 \\
+            #7 \\
+        \end{flushright}
+    \end{minipage}
+}
+
+\newcommand{\bsone}[6]{Hej #1! Mitt namn är #2 och jag skriver angående tjänsten som #3 hos er. Jag såg er annons på #4 och det lät mycket intressant. Jag är på jakt efter ett jobb med liknande beskrivning där jag kan få användning för min kompetens, men också utvecklas. Jag är utbildad #5 och har lång erfarenhet inom #6. Jag är övertygad om att jag skulle hkunna hjälpa er med en hel del.}
+
+\newcommand{\bstwo}[5]{Hej på er! Jag heter #1 och läste på #2 att ni söker nya medarbetare. Jag är en jätteduktig #3 med mycket energi och stor dedikation till #4. Nu jobbar jag som #5, men känner att jag vill vidareutvecklas i min karriär. Jag vet att jag har stor potential, mycket att erbjuda och jag är säker på att jag skulle vara fantastisk på det jobb ni erbjuder.}
+
+\newcommand{\bsthree}[5]{Hejsan! Jag fann er annons på #1 och det låter som något för mig. Jag har en bakgrund som #2 och har jobbat ganska länge inom #3 med allt ifrån #4 till #5. Jag söker nu ett jobb som är mer i linje med den tjänst ni beskriver, och tror jag skulle kunna tillföra mycket hos er.}
+
+\newcommand{\fsone}[3]{\noindent Jag finns tillgänglig för intervju samtliga dagar nästa vecka och framåt, och kan nås på telefon #1 och e-post #2. Med vänliga hälsningar, #3}
+
+\newcommand{\fstwo}[3]{\noindent Ifall ni fortfarande har en plats tillgänglig så hör gärna av er! Jag är redo för intervju och har möjlighet att börja när som helst. Jag finns på telefon #1 och e-post #2. Ha en trevlig dag! Hälsningar, #3}
+
+\newcommand{\fsthree}[3]{
+\noindent Jag ser fram emot ett personligt möte där jag kan berätta mer om mig själv och även få lära känna er bättre. Jag kan komma på intervju vilken dag som helst under nästa vecka. Jag nås via telefon #1 och e-post #2.\newline
+\newline
+Hoppfulla hälsningar, #3 }

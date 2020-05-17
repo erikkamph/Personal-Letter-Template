@@ -1,0 +1,21 @@
+\documentclass[a4paper]{report}
+% Preamble contains all usepackages and some used to style this
+\input{preamble}
+% Commands contains new commands only that does not exist
+\input{commands}
+
+\begin{document}
+
+% Create the first header, 4 rows personal information, 4 rows company information
+\createheader{Namn}{Personnummer}{E-post}{Telefon}{Företags namn}{Gatuadress}{Postnummer och ort}{Kontaktperson}
+
+% What job are you applying for?
+\service{Titel på annons}
+
+\bsone{Kontaktperson}{Namn}{Titel på annons}{Annonssida}{utbildning}{xxx} \newline
+
+\noindent \blindtext \newline
+
+\fsthree{tel}{epost}{namn}
+
+\end{document}
