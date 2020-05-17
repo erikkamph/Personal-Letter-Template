@@ -9,7 +9,7 @@ The template is split into four parts
 1. letters - folder
     1. Create your own letters here
 
-How to use this template:
+## How to use this template:
 1. Download a ```.zip````-file
 1. Select "New Project"
 1. Select "Upload Project"
