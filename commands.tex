@@ -1,6 +1,32 @@
 % All commands that create something are put here
 
-\newcommand{\service}[1]{\subsubsection{Angående tjänst ''#1''}}
+% Create a title that either says that it is spontaneous or serious
+\makeatletter
+\newcommand{\service}[1]{ % Create a command that takes one parameter
+    \ifnum\pdf@strcmp{\unexpanded{#1}}{spontan}=0 % 'True' string comparison in latex
+        \expandafter\@firstoftwo
+    \else
+        \expandafter\@secondoftwo
+    \fi
+        {\subsubsection{Spontanansökan}} % expandafter firstoftwo prints this
+        {\subsubsection{Angående tjänst ''#1''}} % expandafter secondoftwo prints this
+}
+\makeatother
+
+\newcommand{\spontaneous}[6]{
+    \noindent
+    \begin{minipage}{.5\linewidth}
+        #1 \newline
+        \hyperlink{tel:#3}{#3} \newline
+        \hyperlink{mailto:#2}{#2} \newline
+    \end{minipage}
+    \hfill
+    \begin{minipage}{.5\linewidth}
+        #4 \\
+        #5 \\
+        #6 \\
+    \end{minipage}
+}
 
 \newcommand{\createheader}[8]{
     \noindent
