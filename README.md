@@ -14,7 +14,6 @@ The template is split into four parts
 1. Select "New Project"
 1. Select "Upload Project"
 1. Drag and drop or select the path to the downloaded ```.zip```-file
-2. 
 
 ## Commands
 command | # of arguments | argument | comment
