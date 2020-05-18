@@ -30,3 +30,5 @@ command | # of arguments | argument | comment
 \\fsthree | 3 | - | same as \\fsone
 \\fragment | 1 | text | create a non-indented paragraph with automatic newline at the end
 \\sign | 1 | name | like \\fsone to \\fsthree but without the paragraph before
+
+Where there are a dash instead of a list of arguments follow the instruction on \\bsone for now, as you will have to use your own words in those commands. Where there are arguments just follow the arguments and everything will look nicer.
