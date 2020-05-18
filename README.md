@@ -17,6 +17,8 @@ The template is split into four parts
 2. 
 
 ## Commands
-command | argument | comment
---------|----------|--------
-\\
+command | # of arguments | argument | comment
+--------|----------------|----------|--------
+\\service | 1 | spontan or %title% | spontan meaning "Spontanansökan" and %title% being the title of the job ad
+\\createheader | 8 | name, date of birth (yyyy-mm-dd), mail, phone, company contact name, company name, address, zip and city | Order is important, creates the 4 lines seen in the ```Personal_Letter_Template.pdf```
+\\spontaneous | 6 | name, mail, phone, company name, address, zip and city | Creates the same as ```createheader```-command but without date of birth and name to contact person on the company
