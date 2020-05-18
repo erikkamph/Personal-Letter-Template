@@ -24,6 +24,6 @@ command | # of arguments | argument | comment
 \\introduction | 7 | letter, x for the rest | The reason for x in 6 of 7 arguments is because you have to be creative and see the introduction first. Currently there is 3 introductions named a, b and c
 \\final | 4 | letter, phone, email, name | Place an ending in the document, currently there are three which is selectable with the letters a, b and c
 \\fragment | 1 | text | create a non-indented paragraph with automatic newline at the end
-\\sign | 1 | name | like \\fsone to \\fsthree but without the paragraph before
+\\sign | 1 | name | like \\final but without the paragraph before
 
 Where there are a dash instead of a list of arguments follow the instruction on \\bsone for now, as you will have to use your own words in those commands. Where there are arguments just follow the arguments and everything will look nicer.
