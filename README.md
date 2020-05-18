@@ -25,5 +25,3 @@ command | # of arguments | argument | comment
 \\final | 4 | letter, phone, email, name | Place an ending in the document, currently there are three which is selectable with the letters a, b and c
 \\fragment | 1 | text | create a non-indented paragraph with automatic newline at the end
 \\sign | 1 | name | like \\final but without the paragraph before
-
-Where there are a dash instead of a list of arguments follow the instruction on \\bsone for now, as you will have to use your own words in those commands. Where there are arguments just follow the arguments and everything will look nicer.
